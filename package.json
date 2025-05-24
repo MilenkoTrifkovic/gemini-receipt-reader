@@ -1,0 +1,20 @@
+{
+  "name": "geminiocr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch . --ext js,json --exec \"functions-framework --target=geminiReceiptReader\""
+  },
+  "author": "Milenko",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.5.1",
+    "@google-cloud/vertexai": "^1.10.0",
+    "firebase-admin": "^13.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
